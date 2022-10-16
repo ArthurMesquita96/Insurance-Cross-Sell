@@ -1,7 +1,7 @@
 import pickle
 import pandas as pd
 from flask import Flask, request, Response
-from healthinsurance import HealthInsurance
+from health_insurance.healthinsurance import HealthInsurance
 import xgboost as xgb
 import os
 

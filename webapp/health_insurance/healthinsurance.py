@@ -5,13 +5,13 @@ import pickle
 class HealthInsurance():
     def __init__(self):
         self.home_path = ''
-        self.annual_premium_scaler       = pickle.load(open(self.home_path + 'parameter\\annual_premium_scaler.pkl','rb'))
-        self.age_scaler                  = pickle.load(open(self.home_path + 'parameter\\age_scaler.pkl','rb'))
-        self.vintage_scaler              = pickle.load(open(self.home_path + 'parameter\\vintage_scaler.pkl','rb'))
-        self.gender_scaler               = pickle.load(open(self.home_path + 'parameter\\gender_scaler.pkl','rb'))
-        self.region_code_scaler          = pickle.load(open(self.home_path + 'parameter\\region_code_scaler.pkl','rb'))
-        self.policy_sales_channel_scaler = pickle.load(open(self.home_path + 'parameter\\policy_sales_channel_scaler.pkl','rb'))       
-        self.vehicle_damage_scaler       = pickle.load(open(self.home_path + 'parameter\\vehicle_damage_scaler.pkl','rb'))       
+        self.annual_premium_scaler       = pickle.load(open(self.home_path + 'parameter/annual_premium_scaler.pkl','rb'))
+        self.age_scaler                  = pickle.load(open(self.home_path + 'parameter/age_scaler.pkl','rb'))
+        self.vintage_scaler              = pickle.load(open(self.home_path + 'parameter/vintage_scaler.pkl','rb'))
+        self.gender_scaler               = pickle.load(open(self.home_path + 'parameter/gender_scaler.pkl','rb'))
+        self.region_code_scaler          = pickle.load(open(self.home_path + 'parameter/region_code_scaler.pkl','rb'))
+        self.policy_sales_channel_scaler = pickle.load(open(self.home_path + 'parameter/policy_sales_channel_scaler.pkl','rb'))       
+        self.vehicle_damage_scaler       = pickle.load(open(self.home_path + 'parameter/vehicle_damage_scaler.pkl','rb'))       
 
     def data_cleaning(self, df1):
 
