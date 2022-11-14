@@ -5,7 +5,6 @@ from health_insurance.healthinsurance import HealthInsurance
 import xgboost as xgb
 import os
 
-
 model = pickle.load(open('model/xgb_model.pkl','rb'))
 
 app = Flask(__name__)
