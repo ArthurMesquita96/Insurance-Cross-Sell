@@ -207,7 +207,7 @@ De uma forma resumida, dada uma função objetivo, que neste trabalho foi a maxi
 Para essa aplicação foi utilizada a biblioteca optuna. Os resultados das iterações do método até sua convergência são mostrados a seguir:
 
 <div align="center">
-<img src="img/fine_tuning.png" width="800px">
+<img src="img/fine_tuning.png" width="1000px">
 </div>
 </br>
 
