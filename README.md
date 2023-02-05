@@ -144,7 +144,7 @@ A fim de preparar os dados para o modelo, foram aplicadas as seguintes transform
 Para avaliar quais features possuem maior contribuição na predição da variável resposta e então selecionar as melhores features para o modelo, foi utilizado o critério de **importancia das árvores** com uma Random Forest. Foram encontradas as seguintes importancias:
 
 <div align="center">
-<img src="img/feature_selection.png" width="500px">
+<img src="img/feature_selection.png" width="600px">
 </div>
 </br>
 
@@ -179,6 +179,52 @@ Para avaliar as métricas de todos os modelos testados de um forma mais fidedign
 Neste processo, o modelo é treinado e validado com diferentes segmentos do dataset disponível a fim de reduzir qualquer que possa ocorre durante a separação dos dados para o treino. Esse funcionamento pode ser ilustrado à seguir:
 
 <div align="center">
-<img src="img/cross_validation.png" width="500px">
+<img src="img/cross_validation.png" width="600px">
+</div>
+</br>
+
+As métricas de rankeamento de todos os modelos testados são mostradas à seguir:
+
+<div align="center">
+<img src="img/metrics_cross_validation.png" width="600px">
+</div>
+</br>
+
+## 8. Ajuste dos Hiperparametros do Modelo
+
+O ajuste dos hiper parametros do modelo escolhido foi realizado através do método do otimização Baysiana (Baysian Optimazation). 
+
+De uma forma resumida, dada uma função objetivo, que neste trabalho foi a maximização da acurácia do modelo, este método busca o ótimo global aproximando a função real de hiperparametros por uma função “falsa” chamada função substituta. A vantagem deste método é que ele utilizada o resultado das iterações anteriores para decidir os passos futuros, mudando ou mantendo a estratégia a depender da variação da função objetivo a cada iteração. Um pouco mais sobre esse método pode ser encontrado no link ([https://medium.com/analytics-vidhya/hyperparameter-search-bayesian-optimization-14be6fbb0e09](https://medium.com/analytics-vidhya/hyperparameter-search-bayesian-optimization-14be6fbb0e09))
+
+Para essa aplicação foi utilizada a biblioteca optuna. Os resultados das iterações do método até sua convergência são mostrados a seguir:
+
+<div align="center">
+<img src="fine_tuning.png" width="600px">
+</div>
+</br>
+
+# Resultados de Negócio
+
+Para mensurar os impactos financeiros desse projeto, foi feita uma análise sobre a perspectiva do lucro obtido com a operação comparando duas abordagens, a primeira sem a utilização do modelo e a ordenação dos clientes e a segunda com a ordenação.
+
+Essa análise foi baseada em algumas premissas:
+
+- O lucro obtido pela operação é igual à receita obtida de cada cliente convertido subtraida do custo de aquisição de cliente
+- Assumimos aqui valores fictícios e fixos para a receita e custo de aquisição dos clientes como sendo de 40 unidade monetárias (u.m) e 4 u.m respectivamente.
+
+O resultado dessa análise pode ser observada no gráfico abaixo
+
+<div align="center">
+<img src="optimal_revenue.png" width="600px">
+</div>
+</br>
+
+- A performance da operação é muito superior com a ordenação do base pelo modelo em relação ao método tradicional sem ordenação
+- Apesar da capacidade da equipe de vendar ser de 20 mil ligações, com as premissas assumidas aqui, a quantidade de ligações que maximiza o lucro é de 31.156 ligações
+
+Fazendo 20 mil ligações, a companhia terá um ganho financeiro de $141.299 acima da abordagem tradicional
+
+<div align="center">
+<img src="expected_revenue.png" width="600px">
 </div>
 </br>
