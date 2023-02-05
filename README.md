@@ -177,3 +177,8 @@ Também foram observadas as métricas de Classificação:
 Para avaliar as métricas de todos os modelos testados de um forma mais fidedigna, foi utilizada a técnica de Cross Validation
 
 Neste processo, o modelo é treinado e validado com diferentes segmentos do dataset disponível a fim de reduzir qualquer que possa ocorre durante a separação dos dados para o treino. Esse funcionamento pode ser ilustrado à seguir:
+
+<div align="center">
+<img src="img/cross_validation.png" width="500px">
+</div>
+</br>
