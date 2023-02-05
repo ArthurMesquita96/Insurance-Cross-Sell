@@ -68,7 +68,7 @@ Foi realizada uma consulta no banco de dados para coletar os dados referentes à
 
 O banco possui 3 tabelas com informações dos clientes, veículos e seguros, respectivamente. Foi feito o cruzamento dessas 3 tabelas pela chave única existente, sendo o resultado desse cruzamento a fonte principal dos estudos desse projeto
 
-<img src="img/tables.jpg" width="300px" align='left'>
+<img src="img/tables.png" width="300px" align='left'>
 </br> 
 
 ## 2. Descrição dos Dados
