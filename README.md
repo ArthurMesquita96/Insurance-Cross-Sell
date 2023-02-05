@@ -199,7 +199,7 @@ De uma forma resumida, dada uma função objetivo, que neste trabalho foi a maxi
 Para essa aplicação foi utilizada a biblioteca optuna. Os resultados das iterações do método até sua convergência são mostrados a seguir:
 
 <div align="center">
-<img src="fine_tuning.png" width="600px">
+<img src="img/fine_tuning.png" width="600px">
 </div>
 </br>
 
@@ -215,7 +215,7 @@ Essa análise foi baseada em algumas premissas:
 O resultado dessa análise pode ser observada no gráfico abaixo
 
 <div align="center">
-<img src="optimal_revenue.png" width="600px">
+<img src="img/optimal_revenue.png" width="600px">
 </div>
 </br>
 
@@ -225,6 +225,6 @@ O resultado dessa análise pode ser observada no gráfico abaixo
 Fazendo 20 mil ligações, a companhia terá um ganho financeiro de $141.299 acima da abordagem tradicional
 
 <div align="center">
-<img src="expected_revenue.png" width="600px">
+<img src="img/expected_revenue.png" width="600px">
 </div>
 </br>
