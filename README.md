@@ -198,6 +198,15 @@ As métricas de rankeamento de todos os modelos testados são mostradas à segui
 </div>
 </br>
 
+| Model                | Precision at K      | Recall at K     
+| -------------------- | ------------------- | --------------------
+| KNN                  | 0.2188 +/- 0.0009   | 0.9370 +/- 0.0039
+| Logistic Regression  | 0.2320 +/- 0.0002   | 0.9935 +/- 0.0039
+| Extra Trees          | 0.2286 +/- 0.0003   | 0.9792 +/- 0.0016
+| XGBoost              | 0.2322 +/- 0.0002   | 0.9943 +/- 0.0010
+| Light LGBM           | 0.2331 +/- 0.0002   | 0.9940 +/- 0.0011
+
+
 ## 8. Ajuste dos Hiperparametros do Modelo
 
 O ajuste dos hiper parametros do modelo escolhido foi realizado através do método do otimização Baysiana (Baysian Optimazation). 
@@ -207,7 +216,7 @@ De uma forma resumida, dada uma função objetivo, que neste trabalho foi a maxi
 Para essa aplicação foi utilizada a biblioteca optuna. Os resultados das iterações do método até sua convergência são mostrados a seguir:
 
 <div align="center">
-<img src="img/fine_tuning.png" width="1000px">
+<img src="img/fine_tuning.png" width="1100px">
 </div>
 </br>
 
