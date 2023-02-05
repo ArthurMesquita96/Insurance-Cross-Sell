@@ -4,7 +4,7 @@
 
 # Problema de Negócio
   
-<img src="img/batida.png" width="400px" align='right'>
+<img src="img/batida.png" width="300px" align='right'>
 
 <p align = 'left'>
   
@@ -12,6 +12,8 @@ A All Insurance é uma empresa fictícia que oferece serviços de seguro de saú
 
 Para isso, foi realizada uma pesquisa com aproximadamente 381 mil clientes à fim de entender quais apresentavam interesse ou não em adquirir o novo seguro e então armazenou essas informações em um banco de dados. Agora, a empresa possui uma base de 127 mil novos clientes aos quais deseja ofertar o novo seguro.
 
+<br>
+  
 <img src="img/sales team.jpg" width="400px" align='left'>
   
 <p align = 'right'>
