@@ -37,6 +37,6 @@ Por exemplo, entre um cliente A com probabilidade de aderir ao seguro de 20% , o
 A imagem a seguir procura ilustrar esse processo:
   
 <div align="center">
-<img src="img/planejamento_solucao.gif" width="500px">
+<img src="img/planejamento_solucao.gif" width="700px">
 </div>
 </br>
