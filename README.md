@@ -96,8 +96,9 @@ Foi realizada uma análise exploratória dos dados a fim de entender alguns de s
 
 - **Falso,** clientes com mais de 40 anos são 95% mais interessados no segur:
 
-<img src="img/H1.png" width="300px" align='center'>
-<img src="img/H11.png" width="300px" align='center'>
+<img src="img/H1.png" width="600px" align='center'>
+</br>
+<img src="img/H11.png" width="600px" align='center'>
 </br>
 
 ### 2) Clientes com carros mais novos são 30% mais interessados em adiquirir o seguro que clientes com carros mais antigos
