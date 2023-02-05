@@ -193,11 +193,6 @@ Neste processo, o modelo é treinado e validado com diferentes segmentos do data
 
 As métricas de rankeamento de todos os modelos testados são mostradas à seguir:
 
-<div align="center">
-<img src="img/metrics_cross_validation.png" width="600px">
-</div>
-</br>
-
 | Model                | Precision at K      | Recall at K     
 | -------------------- | ------------------- | --------------------
 | KNN                  | 0.2188 +/- 0.0009   | 0.9370 +/- 0.0039
