@@ -64,3 +64,18 @@ Foi realizada uma consulta no banco de dados para coletar os dados referentes à
 O banco possui 3 tabelas com informações dos clientes, veículos e seguros, respectivamente. Foi feito o cruzamento dessas 3 tabelas pela chave única existente, sendo o resultado desse cruzamento a fonte principal dos estudos desse projeto
 
 <img src="img/tables.jpg" width="300px" align='left'>
+
+
+| Store              | Sales      
+| ------------------ | ---------- 
+|id	                 | Identificador único de cada cliente
+|Gender	             | Gênero do cliente
+|Driving_License	   | 0 : Cliente não tem carteira de motorista, 1 : Cliente possui carteira de motorista
+|Region_Code         | Identificador único da região
+|Previously_Insured	 | 1 : Cliente já possui seguro veicular, 0 : Cliente não possui seguro veicular
+|Vehicle_Age	       | Idade do veículo
+|Vehicle_Damage	     | 1 : Cliente já teve seu carro daniicado anteriormente. 0 : Cliente nunca teve seu carro danificado
+|Annual_Premium	     | Valor a ser pago anualmente para aderir o seguro
+|PolicySalesChannel	 | Identificador do canal em que foi realizado a pesquisa (email, telefone, etc..)
+|Vintage	           | Total de dias que o cliente está associado à companhia
+|Response	           | 1 : Cliente está interessado no seguro veicular, 0 : Cliente não está interessado
