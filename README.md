@@ -64,7 +64,11 @@ Foi realizada uma consulta no banco de dados para coletar os dados referentes à
 O banco possui 3 tabelas com informações dos clientes, veículos e seguros, respectivamente. Foi feito o cruzamento dessas 3 tabelas pela chave única existente, sendo o resultado desse cruzamento a fonte principal dos estudos desse projeto
 
 <img src="img/tables.jpg" width="300px" align='left'>
+</br> 
 
+## 2. Descrição dos Dados
+
+Na tabela resultante da consulta realizada possui cerca de 381.109 registros e 12 atributos diferentes de cada cliente. Os atributos são listados à seguir:
 
 | Store              | Sales      
 | ------------------ | ---------- 
