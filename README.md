@@ -100,7 +100,7 @@ Em todos os ciclos de desenvolvimento desse projeto, não vimos necessidade de c
 
 Foi realizada uma análise exploratória dos dados a fim de entender alguns de seus comportamentos e distribuições. Neste processo, alguns insights foram gerados, o 3 principais foram:
 
-### 1) Clientes com mais de 40 anos de idade são, em média, 50% mais interesados em aderir ao seguro
+#### 1) Clientes com mais de 40 anos de idade são, em média, 50% mais interesados em aderir ao seguro
 
 - **Falso,** clientes com mais de 40 anos são 95% mais interessados no segur:
 - 
@@ -114,7 +114,7 @@ Foi realizada uma análise exploratória dos dados a fim de entender alguns de s
 </div>
 </br>
 
-### 2) Clientes com carros mais novos são 30% mais interessados em adiquirir o seguro que clientes com carros mais antigos
+#### 2) Clientes com carros mais novos são 30% mais interessados em adiquirir o seguro que clientes com carros mais antigos
 
 - ******Falso,****** clientes mais novos são 76% menos interessados no seguro
 <div align="center">
@@ -126,7 +126,7 @@ Foi realizada uma análise exploratória dos dados a fim de entender alguns de s
 </div>
 </br>
 
-### 3) Quanto mais dias o cliente tiver de relação com a companhia, maiores as chances dele estar interessado no seguro
+#### 3) Quanto mais dias o cliente tiver de relação com a companhia, maiores as chances dele estar interessado no seguro
 
 - ************Falso,************ quanto mais tempo o cliente tiver de relacionamento com a companhia, menor é o interesse no seguro
 
@@ -207,7 +207,7 @@ De uma forma resumida, dada uma função objetivo, que neste trabalho foi a maxi
 Para essa aplicação foi utilizada a biblioteca optuna. Os resultados das iterações do método até sua convergência são mostrados a seguir:
 
 <div align="center">
-<img src="img/fine_tuning.png" width="600px">
+<img src="img/fine_tuning.png" width="800px">
 </div>
 </br>
 
