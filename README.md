@@ -95,21 +95,34 @@ Foi realizada uma análise exploratória dos dados a fim de entender alguns de s
 ### 1) Clientes com mais de 40 anos de idade são, em média, 50% mais interesados em aderir ao seguro
 
 - **Falso,** clientes com mais de 40 anos são 95% mais interessados no segur:
-
-<img src="img/H1.png" width="400px" align='center'>
+- 
+<div align="center">
+<img src="img/H1.png" width="400px">
+</div>
 </br>
-<img src="img/H11.png" width="400px" align='center'>
+
+<div align="center">
+<img src="img/H11.png" width="400px">
+</div>
 </br>
 
 ### 2) Clientes com carros mais novos são 30% mais interessados em adiquirir o seguro que clientes com carros mais antigos
 
 - ******Falso,****** clientes mais novos são 76% menos interessados no seguro
-<img src="img/H2.png" width="400px" align='center'>
-<img src="img/H22.png" width="400px" align='center'>
+<div align="center">
+<img src="img/H2.png" width="400px">
+</div>
+</br>
+<div align="center">
+<img src="img/H22.png" width="400px">
+</div>
 </br>
 
 ### 3) Quanto mais dias o cliente tiver de relação com a companhia, maiores as chances dele estar interessado no seguro
 
 - ************Falso,************ quanto mais tempo o cliente tiver de relacionamento com a companhia, menor é o interesse no seguro
-- <img src="img/H3.png" width="400px" align='center'>
+
+<div align="center">
+<img src="img/H3.png" width="400px">
+</div>
 </br>
