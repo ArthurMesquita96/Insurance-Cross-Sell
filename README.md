@@ -123,6 +123,57 @@ Foi realizada uma análise exploratória dos dados a fim de entender alguns de s
 - ************Falso,************ quanto mais tempo o cliente tiver de relacionamento com a companhia, menor é o interesse no seguro
 
 <div align="center">
-<img src="img/H3.png" width="400px">
+<img src="img/H3.png" width="500px">
 </div>
 </br>
+
+## 5. Preparação dos Dados
+
+A fim de preparar os dados para o modelo, foram aplicadas as seguintes transformações
+
+- Standarization: Para variáveis numéricas com distribuição bem próxima à normal
+- Min Max Scaler: Para variáveis numéricas com distruibuição diferente da normal e sem outliers
+- One Hot Enconde: Para variáveis categóricas que represetem uma ideia de estado
+- Target Encode: Para variáveis categóricas em que se espera que sua média em relação à variável resposta seja constante
+- Frequency Enconde: Para variáveis categóricas em que se entende que sua frequencia tem relação com a variável resposta
+
+</br>
+
+## 6. Seleção de Atributos para o Modelo
+
+Para avaliar quais features possuem maior contribuição na predição da variável resposta e então selecionar as melhores features para o modelo, foi utilizado o critério de **importancia das árvores** com uma Random Forest. Foram encontradas as seguintes importancias:
+
+<div align="center">
+<img src="img/feature_selection.png" width="500px">
+</div>
+</br>
+
+Com isso, as selecionadas as 7 features mais importantes para o modelo:
+
+- Vintage
+- Annual Premium
+- Age
+- Region Code
+- Vehicle Damage
+- Police Sales Channel
+- Previuously Insured
+
+## 7. Modelo de Machine Learning
+
+Para a definição do melhor modelo a ser utilizado, foram testados 5 modelos de classificação diferentes. Estes foram avaliadas principalmente as métricas de rankeamento (ponto chave desde projeto) mas também as métricas de classificação em si.
+
+As principais métricas observadas foram:
+
+- Precision at K
+- Recall at K
+
+Também foram observadas as métricas de Classificação:
+
+- Acurácia
+- Precisão
+- Recall
+- F1 Score
+
+Para avaliar as métricas de todos os modelos testados de um forma mais fidedigna, foi utilizada a técnica de Cross Validation
+
+Neste processo, o modelo é treinado e validado com diferentes segmentos do dataset disponível a fim de reduzir qualquer que possa ocorre durante a separação dos dados para o treino. Esse funcionamento pode ser ilustrado à seguir:
