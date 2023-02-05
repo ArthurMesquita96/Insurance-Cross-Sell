@@ -1,7 +1,5 @@
 # Insurance-Cross-Sell
 
-<img src="img/batida.png" width="400px" align='center'>
-
 # Problema de Negócio
   
 <img src="img/batida.png" width="300px" align='right'>
@@ -56,3 +54,13 @@ Esse processo pode ser ilustrado pela imagem a seguir:
 <img src="img/planejamento_solucao.gif" width="700px">
 </div>
 </br>
+
+# Desenvolvimento
+
+## 1. Coleta de Dados
+
+Foi realizada uma consulta no banco de dados para coletar os dados referentes à pesquisa feita pela empresa com sua base de potenciais clientes.
+
+O banco possui 3 tabelas com informações dos clientes, veículos e seguros, respectivamente. Foi feito o cruzamento dessas 3 tabelas pela chave única existente, sendo o resultado desse cruzamento a fonte principal dos estudos desse projeto
+
+<img src="img/tables.jpg" width="300px" align='left'>
