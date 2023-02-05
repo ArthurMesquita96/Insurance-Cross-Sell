@@ -1,5 +1,10 @@
 # Insurance-Cross-Sell
 
+<div align="center">
+<img src="img/vehicle_insurance.png" width="700px">
+</div>
+</br>
+
 # Problema de Negócio
   
 <img src="img/batida.png" width="300px" align='right'>
