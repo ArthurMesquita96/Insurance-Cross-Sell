@@ -1,6 +1,6 @@
 # Insurance-Cross-Sell
 
-<img src="img/batida.png" width="220px" align='right'>
+<img src="img/batida.png" width="500px" align='right'>
 
 <p align = 'left'>
 
