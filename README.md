@@ -83,3 +83,32 @@ Na tabela resultante da consulta realizada possui cerca de 381.109 registros e 1
 |PolicySalesChannel	 | Identificador do canal em que foi realizado a pesquisa (email, telefone, etc..)
 |Vintage	           | Total de dias que o cliente está associado à companhia
 |Response	           | 1 : Cliente está interessado no seguro veicular, 0 : Cliente não está interessado
+
+## 3. Criando Novos Atributos
+
+Em todos os ciclos de desenvolvimento desse projeto, não vimos necessidade de criar novos atributos para o modelo. Foi feito alguns ajustes que visam facilitar a visualização nos atributos já existentes como ajuste dos nomes das categorias
+
+## 4. Análise Exploratória de Dados
+
+Foi realizada uma análise exploratória dos dados a fim de entender alguns de seus comportamentos e distribuições. Neste processo, alguns insights foram gerados, o 3 principais foram:
+
+### 1) Clientes com mais de 40 anos de idade são, em média, 50% mais interesados em aderir ao seguro
+
+- **Falso,** clientes com mais de 40 anos são 95% mais interessados no segur:
+
+<img src="img/H1.jpg" width="300px" align='center'>
+<img src="img/H11.jpg" width="300px" align='center'>
+</br>
+
+### 2) Clientes com carros mais novos são 30% mais interessados em adiquirir o seguro que clientes com carros mais antigos
+
+- ******Falso,****** clientes mais novos são 76% menos interessados no seguro
+<img src="img/H2.jpg" width="300px" align='center'>
+<img src="img/H22.jpg" width="300px" align='center'>
+</br>
+
+### 3) Quanto mais dias o cliente tiver de relação com a companhia, maiores as chances dele estar interessado no seguro
+
+- ************Falso,************ quanto mais tempo o cliente tiver de relacionamento com a companhia, menor é o interesse no seguro
+- <img src="img/H3.jpg" width="300px" align='center'>
+</br>
