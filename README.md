@@ -35,6 +35,22 @@ Tendo como base a pesquisa de interesse realizada pela empresa à respeito do no
 Por exemplo, entre um cliente A com probabilidade de aderir ao seguro de 20% , outro cliente B com probabilidade de 70%, o **time de vendas deveria optar por acionar primeiramente o cliente B**. Com a probabilidade de aderência do seguro de todos os clientes da base potencial calculada, é possível ordenar a lista pela probabilidade, da maior para a menor, e acionar primeiramente os clientes com maior probabilidade, aumentando assim a conversão da operação.
 
 A imagem a seguir procura ilustrar esse processo:
+ 
+<div align="center">
+<img src="img/Apresentação-Health-Insuranse.gif" width="700px">
+</div>
+</br>
+
+ # Planejamento da Solução
+
+Em uma visão geral, o processo de solução deste problema foi elaborado da seguinte forma
+
+1. Primeiro os dados da pesquisa de interesse realizado pela empresa foram dividos em duas parcelas, uma com 80% dos dados e outra com 20%. Esses dados utilizados para treinar e avaliar o algoritmo em um processo de cross validation, treinando-se o algortmo com a parcela maior e avaliando suas métricas com a menor
+2. Após essa avaliação é feita a escolha do algoritmo a ser utilizado no projeto 
+3. Com o modelo escolhido e os hiperparametros ajustados, a base de novos clientes e aplicada ao modelo para a obtenção das probabilidades e o ordenamento da lista para o time de vendas
+4. Assumindo que as bases sejam homogênas, podemos generalizar as métricas obtidas na validação do modelo para a nova base de clientes, mensurando-se assim a performance da operação com essa nova base
+
+Esse processo pode ser ilustrado pela imagem a seguir:
   
 <div align="center">
 <img src="img/planejamento_solucao.gif" width="700px">
