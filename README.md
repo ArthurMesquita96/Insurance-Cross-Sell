@@ -1,7 +1,7 @@
 # Insurance-Cross-Sell
 
 <div align="center">
-<img src="img/vehicle_insurance.png" width="700px">
+<img src="img/vehicle_insurance_logo.png" width="700px">
 </div>
 </br>
 
