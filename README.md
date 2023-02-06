@@ -201,6 +201,7 @@ As métricas de rankeamento de todos os modelos testados são mostradas à segui
 | XGBoost              | 0.2322 +/- 0.0002   | 0.9943 +/- 0.0010
 | Light LGBM           | 0.2331 +/- 0.0002   | 0.9940 +/- 0.0011
 
+Com base nessas métricas, o modelo escolhido para esse projeto foi o **XGBoost Classifier**
 
 ## 8. Ajuste dos Hiperparametros do Modelo
 
