@@ -253,6 +253,6 @@ Para o acesso to time de negócios e vendas aos resultados do modelo, foi constr
 A imagem à seguir busca ilustrar esse procedimento:
 
 <div align="center">
-<img src="img/Propensity-Score.gif" width="700px">
+<img src="img/Propensity-Score.gif" width="1000px">
 </div>
 </br>
