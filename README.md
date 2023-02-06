@@ -244,7 +244,8 @@ Fazendo 20 mil ligações, a companhia terá um ganho financeiro de $141.299 aci
 
 # Modelo em Produção
 
-Para o acesso to time de negócios e vendas aos resultados do modelo, foi construída uma API que retorna o valor de probabilidade (propensity score) de conversão do cliente de interesse que pode ser acessada via google sheets. O processo funciona da seguinte forma:
+Para o acesso to time de negócios e vendas aos resultados do modelo, foi construída uma API que retorna o valor de probabilidade (propensity score) de conversão do cliente de interesse que pode ser acessada via [planilha no google sheets]
+(https://docs.google.com/spreadsheets/d/1iOERg99eXRlAgLsPzGxkGd__afzRs_0Vs_LMovph7ck/edit?usp=sharing). O processo funciona da seguinte forma:
 
 1. Os dados da nova base de clientes é inserido na planilha do google sheets
 2. Foi criado um botão no menu superior chamado “propensity score” que quando clicado gera o score de todos os clientes inseridos na planilha
