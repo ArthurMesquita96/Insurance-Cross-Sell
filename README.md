@@ -242,7 +242,7 @@ Fazendo 20 mil ligações, a companhia terá um ganho financeiro de $141.299 aci
 </div>
 </br>
 
-# 10. Modelo em Produção
+# Modelo em Produção
 
 Para o acesso to time de negócios e vendas aos resultados do modelo, foi construída uma API que retorna o valor de probabilidade (propensity score) de conversão do cliente de interesse que pode ser acessada via google sheets. O processo funciona da seguinte forma:
 
