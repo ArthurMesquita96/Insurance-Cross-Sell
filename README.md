@@ -31,9 +31,9 @@ Para isso, ela contratou um time de cientistas de dados para que estes pudessem 
 
 # Estratégia de Solução
 
-Tendo como base a pesquisa de interesse realizada pela empresa à respeito do novo seguro, que reuniu diversos dados dos potenciais clientes, o modelo proposto neste projeto será capaz de **calcular a probabilidade (score) de um determinado indivíduo aderir um seguro ou não** 
+Tendo como base a pesquisa de interesse realizada pela empresa à respeito do novo seguro, que reuniu diversos dados dos potenciais clientes, o modelo proposto neste projeto será capaz de **calcular a probabilidade (score) de um determinado indivíduo aderir um seguro ou não**.
 
-Por exemplo, entre um cliente A com probabilidade de aderir ao seguro de 20% , outro cliente B com probabilidade de 70%, o **time de vendas deveria optar por acionar primeiramente o cliente B**. Com a probabilidade de aderência do seguro de todos os clientes da base potencial calculada, é possível ordenar a lista pela probabilidade, da maior para a menor, e acionar primeiramente os clientes com maior probabilidade, aumentando assim a conversão da operação.
+Por exemplo, entre um cliente A com probabilidade de aderir ao seguro de 20% e outro cliente B com probabilidade de 70%, o **time de vendas deveria optar por acionar primeiramente o cliente B**. Com a probabilidade de aderência do seguro calculada para todos os clientes da base potencial, é possível ordenar a lista pela probabilidade, da maior para a menor, e acionar primeiramente os clientes com maior probabilidade, aumentando assim a conversão da operação.
 
 A imagem a seguir procura ilustrar esse processo:
  
