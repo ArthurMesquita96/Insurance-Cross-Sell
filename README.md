@@ -17,7 +17,7 @@ Para isso, foi realizada uma pesquisa com aproximadamente 381 mil clientes à fi
 
 <br>
   
-<img src="img/sales team.jpg" width="300px" align='left'>
+<img src="img/sales team.jpg" width="250px" align='left'>
   
 <p align = 'right'>
   
