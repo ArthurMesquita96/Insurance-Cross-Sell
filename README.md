@@ -24,8 +24,6 @@ Para isso, foi realizada uma pesquisa com aproximadamente 381 mil clientes à fi
 O plano é alocar parte do time de vendas para **contactar esses clientes via telefone** ofertando o seguro. Dado a número de vendedores e ao orçamento destinado ao projeto, a equipe tem a capacidade de realizar até 20 mil ligações para a base de potenciais clientes.
 
 Com essa restrição de projeto, a All Insurance gostaria de **atingir o maior número possível de interessados** no seguro dentro do limite de ligações possíveis.
-
-<br>
   
 Para isso, ela contratou um time de cientistas de dados para que estes pudessem acionar os melhores clientes dentre a base potencial para o oferecimento do seguro.
   
