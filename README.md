@@ -253,7 +253,7 @@ Basicamente, a partir dos dados dos clientes informados pelo usuário ou aplica�
 O funcionamento básico da API é demosntrado a seguir:
 
 <div align="center">
-<img src="img/API.png" width="1000px">
+<img src="img/API.png" width="800px">
 </div>
 </br>
 
