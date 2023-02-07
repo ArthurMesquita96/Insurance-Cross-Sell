@@ -257,8 +257,7 @@ O funcionamento básico da API é demosntrado a seguir:
 </div>
 </br>
 
-A fim de facilitar o acesso do time de vendas e de negócios aos dados, foi construída uma [planilha no Google Sheets]
-(https://docs.google.com/spreadsheets/d/1iOERg99eXRlAgLsPzGxkGd__afzRs_0Vs_LMovph7ck/edit?usp=sharing) que realiza a predição dos clientes desejados de uma forma bem simple:
+A fim de facilitar o acesso do time de vendas e de negócios aos dados, foi construída uma [planilha no Google Sheets](https://docs.google.com/spreadsheets/d/1iOERg99eXRlAgLsPzGxkGd__afzRs_0Vs_LMovph7ck/edit?usp=sharing) que realiza a predição dos clientes desejados de uma forma bem simple:
 
 1. Os dados da nova base de clientes é inserido na planilha do google sheets pelo usuário
 2. Foi criado um botão no menu superior chamado “propensity score” que quando clicado gera o score de todos os clientes inseridos na planilha
