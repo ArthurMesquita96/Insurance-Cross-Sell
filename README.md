@@ -25,7 +25,7 @@ O plano é alocar parte do time de vendas para **contactar esses clientes via te
 
 Com essa restrição de projeto, a All Insurance gostaria de **atingir o maior número possível de interessados** no seguro dentro do limite de ligações possíveis.
   
-Para isso, ela contratou um time de cientistas de dados para que estes pudessem acionar os melhores clientes dentre a base potencial para o oferecimento do seguro.
+Para isso, ela contratou um time de cientistas de dados para que estes pudessem selecionar os melhores clientes dentre a base potencial para o oferecimento do seguro.
   
 <br>
 
