@@ -62,7 +62,7 @@ Esse processo pode ser ilustrado pela imagem a seguir:
 
 ## 1. Coleta de Dados
 
-Foi realizada uma consulta no banco de dados para coletar os dados referentes à pesquisa feita pela empresa com sua base de potenciais clientes.
+Foi realizada uma consulta no banco de dados para coletar os dados referentes à pesquisa feita pela empresa com sua base de clientes.
 
 O banco possui 3 tabelas com informações dos clientes, veículos e seguros, respectivamente. Foi feito o cruzamento dessas 3 tabelas pela chave única existente, sendo o resultado desse cruzamento a fonte principal dos estudos desse projeto
 
@@ -74,7 +74,7 @@ O banco possui 3 tabelas com informações dos clientes, veículos e seguros, re
 
 ## 2. Descrição dos Dados
 
-Na tabela resultante da consulta realizada possui cerca de 381.109 registros e 12 atributos diferentes de cada cliente. Os atributos são listados à seguir:
+Na tabela resultante da consulta realizada possui cerca de 381.109 registros e 12 atributos diferentes de cada cliente. Os atributos são descritos à seguir:
 
 | Store              | Sales      
 | ------------------ | ---------- 
@@ -92,7 +92,7 @@ Na tabela resultante da consulta realizada possui cerca de 381.109 registros e 1
 
 ## 3. Criando Novos Atributos
 
-Em todos os ciclos de desenvolvimento desse projeto, não vimos necessidade de criar novos atributos para o modelo. Foi feito alguns ajustes que visam facilitar a visualização nos atributos já existentes como ajuste dos nomes das categorias
+Em todos os ciclos de desenvolvimento desse projeto, não vimos necessidade de criar novos atributos para o modelo. Foi feito alguns ajustes que visam facilitar a visualização nos atributos já existentes como ajuste dos nomes das categorias.
 
 ## 4. Análise Exploratória de Dados
 
@@ -100,7 +100,7 @@ Foi realizada uma análise exploratória dos dados a fim de entender alguns de s
 
 #### 1) Clientes com mais de 40 anos de idade são, em média, 50% mais interesados em aderir ao seguro
 
-- **Falso,** clientes com mais de 40 anos são 95% mais interessados no segur:
+- **Falso,** clientes com mais de 40 anos são 95% mais interessados no seguro:
 - 
 <div align="center">
 <img src="img/H1.png" width="400px">
@@ -114,7 +114,7 @@ Foi realizada uma análise exploratória dos dados a fim de entender alguns de s
 
 #### 2) Clientes com carros mais novos são 30% mais interessados em adiquirir o seguro que clientes com carros mais antigos
 
-- ******Falso,****** clientes mais novos são 76% menos interessados no seguro
+- ******Falso,****** clientes mais novos são 76% menos interessados no seguro.
 <div align="center">
 <img src="img/H2.png" width="400px">
 </div>
@@ -126,7 +126,7 @@ Foi realizada uma análise exploratória dos dados a fim de entender alguns de s
 
 #### 3) Quanto mais dias o cliente tiver de relação com a companhia, maiores as chances dele estar interessado no seguro
 
-- ************Falso,************ quanto mais tempo o cliente tiver de relacionamento com a companhia, menor é o interesse no seguro
+- ************Falso,************ quanto mais tempo o cliente tiver de relacionamento com a compania, menor é o interesse no seguro.
 
 <div align="center">
 <img src="img/H3.png" width="500px">
@@ -137,11 +137,11 @@ Foi realizada uma análise exploratória dos dados a fim de entender alguns de s
 
 A fim de preparar os dados para o modelo, foram aplicadas as seguintes transformações
 
-- Standarization: Para variáveis numéricas com distribuição bem próxima à normal
-- Min Max Scaler: Para variáveis numéricas com distruibuição diferente da normal e sem outliers
-- One Hot Enconde: Para variáveis categóricas que represetem uma ideia de estado
-- Target Encode: Para variáveis categóricas em que se espera que sua média em relação à variável resposta seja constante
-- Frequency Enconde: Para variáveis categóricas em que se entende que sua frequencia tem relação com a variável resposta
+- Standarization: Para variáveis numéricas com distribuição bem próxima à normal.
+- Min Max Scaler: Para variáveis numéricas com distruibuição diferente da normal e sem outliers.
+- One Hot Enconde: Para variáveis categóricas que represetem uma ideia de estado.
+- Target Encode: Para variáveis categóricas em que se espera que sua média em relação à variável resposta seja constante.
+- Frequency Enconde: Para variáveis categóricas em que se entende que sua frequencia tem relação com a variável resposta.
 
 </br>
 
@@ -166,7 +166,7 @@ Com isso, as selecionadas as 7 features mais importantes para o modelo:
 
 ## 7. Modelo de Machine Learning
 
-Para a definição do melhor modelo a ser utilizado, foram testados 5 modelos de classificação diferentes. Estes foram avaliadas principalmente as métricas de rankeamento (ponto chave desde projeto) mas também as métricas de classificação em si.
+Para a definição do melhor modelo a ser utilizado, foram testados 5 modelos de classificação diferentes. Estes foram avaliadas principalmente pelas métricas de rankeamento (ponto chave desde projeto) mas também as métricas de classificação em si.
 
 As principais métricas observadas foram:
 
@@ -182,7 +182,7 @@ Também foram observadas as métricas de Classificação:
 
 Para avaliar as métricas de todos os modelos testados de um forma mais fidedigna, foi utilizada a técnica de Cross Validation
 
-Neste processo, o modelo é treinado e validado com diferentes segmentos do dataset disponível a fim de reduzir qualquer que possa ocorre durante a separação dos dados para o treino. Esse funcionamento pode ser ilustrado à seguir:
+Neste processo, o modelo é treinado e validado com diferentes segmentos do dataset disponível a fim de reduzir qualquer viés que possa ocorrer durante a separação dos dados para o treino. Esse funcionamento pode ser ilustrado à seguir:
 
 <div align="center">
 <img src="img/cross_validation.png" width="600px">
@@ -203,9 +203,11 @@ Com base nessas métricas, o modelo escolhido para esse projeto foi o **XGBoost 
 
 ## 8. Ajuste dos Hiperparametros do Modelo
 
-O ajuste dos hiper parametros do modelo escolhido foi realizado através do método do otimização Baysiana (Baysian Optimazation). 
+O ajuste dos hiperparametros do modelo escolhido foi realizado através do método do otimização Baysiana (Baysian Optimazation). 
 
-De uma forma resumida, dada uma função objetivo, que neste trabalho foi a maximização da acurácia do modelo, este método busca o ótimo global aproximando a função real de hiperparametros por uma função “falsa” chamada função substituta. A vantagem deste método é que ele utilizada o resultado das iterações anteriores para decidir os passos futuros, mudando ou mantendo a estratégia a depender da variação da função objetivo a cada iteração. Um pouco mais sobre esse método pode ser encontrado no link ([https://medium.com/analytics-vidhya/hyperparameter-search-bayesian-optimization-14be6fbb0e09](https://medium.com/analytics-vidhya/hyperparameter-search-bayesian-optimization-14be6fbb0e09))
+De uma forma resumida, dada uma função objetivo (que neste trabalho foi a maximização da acurácia do modelo) este método busca o **ótimo global** aproximando a função real de hiperparametros por uma “falsa” função chamada função substituta. 
+
+A vantagem deste método é que ele utilizada o resultado das iterações anteriores para decidir os passos futuros, mudando ou mantendo a estratégia a depender da variação da função objetivo a cada iteração. Um pouco mais sobre esse método pode ser encontrado no [link](https://medium.com/analytics-vidhya/hyperparameter-search-bayesian-optimization-14be6fbb0e09)).
 
 Para essa aplicação foi utilizada a biblioteca optuna. Os resultados das iterações do método até sua convergência são mostrados a seguir:
 
@@ -216,7 +218,7 @@ Para essa aplicação foi utilizada a biblioteca optuna. Os resultados das itera
 
 # Resultados de Negócio
 
-Para mensurar os impactos financeiros desse projeto, foi feita uma análise sobre a perspectiva do lucro obtido com a operação comparando duas abordagens, a primeira sem a utilização do modelo e a ordenação dos clientes e a segunda com a ordenação.
+Para mensurar os impactos financeiros desse projeto, foi feita uma análise sobre a perspectiva do lucro obtido com a operação comparando duas abordagens, a primeira sem a utilização do modelo e a ordenação dos clientes e a segunda com a ordenação dada pelo modelo.
 
 Essa análise foi baseada em algumas premissas:
 
@@ -230,8 +232,10 @@ O resultado dessa análise pode ser observada no gráfico abaixo
 </div>
 </br>
 
-- A performance da operação é muito superior com a ordenação do base pelo modelo em relação ao método tradicional sem ordenação
-- Apesar da capacidade da equipe de vendar ser de 20 mil ligações, com as premissas assumidas aqui, a quantidade de ligações que maximiza o lucro é de 31.156 ligações
+### Conclusões
+
+- A performance da operação é muito superior com a ordenação do base pelo modelo em relação ao método tradicional sem ordenação.
+- Apesar da capacidade da equipe de vendas ser de 20 mil ligações, com as premissas assumidas aqui, a quantidade de ligações que maximiza o lucro é de 31.156 ligações
 
 Fazendo 20 mil ligações, a companhia terá um ganho financeiro de $141.299 acima da abordagem tradicional
 
@@ -242,16 +246,35 @@ Fazendo 20 mil ligações, a companhia terá um ganho financeiro de $141.299 aci
 
 # Modelo em Produção
 
-Para o acesso do time de negócios e vendas aos resultados do modelo, foi construída uma API que retorna o valor de probabilidade de conversão (propensity score) do cliente de interesse que pode ser acessada via [planilha no google sheets]
-(https://docs.google.com/spreadsheets/d/1iOERg99eXRlAgLsPzGxkGd__afzRs_0Vs_LMovph7ck/edit?usp=sharing). O processo funciona da seguinte forma:
+Para o acesso to time de negócios e vendas aos resultados do modelo, foi construída uma API que retorna o valor de probabilidade (propensity score) de conversão do cliente de interesse 
 
-1. Os dados da nova base de clientes é inserido na planilha do google sheets
+Basicamente, a partir dos dados dos clientes informados pelo usuário ou aplicação, o arquivo [Handler](http://Handler.py) carrega as transformações necessárias aos dados e o modelo já treinado. Então, faz-se a predição e esse valor e retornado ao usuário.
+
+O funcionamento básico da API é demosntrado a seguir:
+
+<div align="center">
+<img src="img/API.png" width="1000px">
+</div>
+</br>
+
+A fim de facilitar o acesso do time de vendas e de negócios aos dados, foi construída uma [planilha no Google Sheets]
+(https://docs.google.com/spreadsheets/d/1iOERg99eXRlAgLsPzGxkGd__afzRs_0Vs_LMovph7ck/edit?usp=sharing) que realiza a predição dos clientes desejados de uma forma bem simple:
+
+1. Os dados da nova base de clientes é inserido na planilha do google sheets pelo usuário
 2. Foi criado um botão no menu superior chamado “propensity score” que quando clicado gera o score de todos os clientes inseridos na planilha
 3. Com os scores de todos os clientes, o time poderá iniciar sua operação
 
-A imagem à seguir busca ilustrar esse procedimento:
+A imagem à seguir demonstra o funcionamento dessa planilha:
 
 <div align="center">
 <img src="img/Propensity-Score.gif" width="1000px">
 </div>
 </br>
+
+# Próximos passos
+
+Como próximos passos e melhorias para a evolução desse projeto, elencou-se os seguintes pontos:
+
+- Coleta de novas features que possam ser relevantes para a predição da conversão do cliente.
+- Criação de novas features a partir das features já existentes, que ajudem na modelagem do fenômeno.
+- Facilitar o acesso ao time de vendas às predições do modelo, melhorando a usabilidade da planilha compartilhada por meio de botões, instruções e seleções das features
