@@ -207,7 +207,7 @@ O ajuste dos hiperparametros do modelo escolhido foi realizado através do méto
 
 De uma forma resumida, dada uma função objetivo (que neste trabalho foi a maximização da acurácia do modelo) este método busca o **ótimo global** aproximando a função real de hiperparametros por uma “falsa” função chamada função substituta. 
 
-A vantagem deste método é que ele utilizada o resultado das iterações anteriores para decidir os passos futuros, mudando ou mantendo a estratégia a depender da variação da função objetivo a cada iteração. Um pouco mais sobre esse método pode ser encontrado no [link](https://medium.com/analytics-vidhya/hyperparameter-search-bayesian-optimization-14be6fbb0e09)).
+A vantagem deste método é que ele utilizada o resultado das iterações anteriores para decidir os passos futuros, mudando ou mantendo a estratégia a depender da variação da função objetivo a cada iteração. Um pouco mais sobre esse método pode ser encontrado no [link](https://medium.com/analytics-vidhya/hyperparameter-search-bayesian-optimization-14be6fbb0e09).
 
 Para essa aplicação foi utilizada a biblioteca optuna. Os resultados das iterações do método até sua convergência são mostrados a seguir:
 
