@@ -154,7 +154,7 @@ Para avaliar quais features possuem maior contribuição na predição da variá
 </div>
 </br>
 
-Com isso, as selecionadas as 7 features mais importantes para o modelo:
+Com isso, foram selecionadas as 7 features mais importantes para o modelo:
 
 - Vintage
 - Annual Premium
